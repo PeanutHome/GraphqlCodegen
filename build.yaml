@@ -1,0 +1,7 @@
+targets:
+ $default:
+    builders:
+      graphql_codegen:
+        options:
+          schema: "schema.graphql"
+          output: "lib/generated"

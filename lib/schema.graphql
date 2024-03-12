@@ -1,0 +1,9 @@
+type Country {
+  name: String!
+  capital: String!
+}
+
+type Query {
+  countries: [Country!]!
+}
+
